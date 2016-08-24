@@ -4418,16 +4418,16 @@ SPST reed relay with magnetic shield</description>
 &lt;br&gt;
 SIP reed relay</description>
 <gates>
-<gate name="-C" symbol="COIL" x="0" y="0"/>
-<gate name="-S" symbol="SPST-NO" x="-2.54" y="-7.62"/>
+<gate name="1" symbol="COIL" x="0" y="0"/>
+<gate name="2" symbol="SPST-NO" x="-2.54" y="-7.62"/>
 </gates>
 <devices>
 <device name="" package="COTO-9117">
 <connects>
-<connect gate="-C" pin="1" pad="1"/>
-<connect gate="-C" pin="2" pad="2"/>
-<connect gate="-S" pin="P$1" pad="3"/>
-<connect gate="-S" pin="P$2" pad="4"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="2" pin="P$1" pad="3"/>
+<connect gate="2" pin="P$2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
