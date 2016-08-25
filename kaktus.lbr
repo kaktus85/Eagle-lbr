@@ -6,7 +6,11 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
+<<<<<<< HEAD
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+=======
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+>>>>>>> origin/master
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1691,10 +1695,9 @@ CR2032 battery holder</description>
 <vertex x="0.75" y="-2.85"/>
 </polygon>
 </package>
-<package name="SOT95P285X120-5N">
+<package name="SOT95P285X120-5N-SPECIAL-HIZ">
 <smd name="1" x="-1.2954" y="0.9652" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="2" x="-1.2954" y="0" dx="1.27" dy="0.5588" layer="1"/>
-<smd name="3" x="-1.2954" y="-0.9652" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="4" x="1.2954" y="-0.9652" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="5" x="1.2954" y="0.9652" dx="1.27" dy="0.5588" layer="1"/>
 <wire x1="-0.4318" y1="-1.4478" x2="0.4318" y2="-1.4478" width="0.1524" layer="21"/>
@@ -1841,6 +1844,7 @@ CR2032 battery holder</description>
 <text x="-4.4" y="-7" size="0.8128" layer="27" font="vector">&gt;Value</text>
 <rectangle x1="0" y1="-4" x2="1.8" y2="-2" layer="21"/>
 </package>
+<<<<<<< HEAD
 <package name="COTO-9002">
 <description>Coto Technology Model 9002 reed relay</description>
 <pad name="1" x="-7.62" y="0" drill="0.8" diameter="1.524" shape="square" rot="R90"/>
@@ -1872,6 +1876,37 @@ CR2032 battery holder</description>
 <wire x1="5.715" y1="-1.905" x2="5.715" y2="1.905" width="0.127" layer="21"/>
 <wire x1="5.715" y1="1.905" x2="-1.143" y2="1.905" width="0.127" layer="21"/>
 <text x="-1.27" y="2.54" size="1.016" layer="21" font="vector">&gt;Name</text>
+=======
+<package name="BNC-SPECIAL-NO-CENTRE">
+<description>Fits Mouser Part#5227161</description>
+<wire x1="-7.493" y1="-2.9718" x2="7.493" y2="-2.9718" width="0.127" layer="21"/>
+<wire x1="7.493" y1="-2.9718" x2="7.493" y2="10.8712" width="0.127" layer="21"/>
+<wire x1="7.493" y1="10.8712" x2="-7.493" y2="10.8712" width="0.127" layer="21"/>
+<wire x1="-7.493" y1="10.8712" x2="-7.493" y2="-2.9718" width="0.127" layer="21"/>
+<wire x1="-7.112" y1="10.8712" x2="-7.112" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="-7.112" y1="19.8882" x2="-6.604" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="19.8882" x2="6.604" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="6.604" y1="19.8882" x2="7.0866" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="7.0866" y1="19.8882" x2="7.112" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="7.112" y1="19.8882" x2="7.112" y2="10.8712" width="0.127" layer="51"/>
+<wire x1="6.604" y1="19.8882" x2="6.604" y2="33.7312" width="0.127" layer="51"/>
+<wire x1="6.604" y1="33.7312" x2="-6.604" y2="33.7312" width="0.127" layer="51"/>
+<wire x1="-6.604" y1="33.7312" x2="-6.604" y2="19.8882" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="17.7546" x2="7.0866" y2="18.6182" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="16.4846" x2="7.0866" y2="17.3482" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="15.2146" x2="7.0866" y2="16.0782" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="13.9446" x2="7.0866" y2="14.8082" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="12.6746" x2="7.0866" y2="13.5382" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="11.4046" x2="7.0866" y2="12.2682" width="0.127" layer="51"/>
+<wire x1="-7.0866" y1="19.0246" x2="7.0866" y2="19.8882" width="0.127" layer="51"/>
+<circle x="0" y="30.48" radius="0.8179" width="0.127" layer="51"/>
+<pad name="GND" x="-2.54" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-5.08" y="5.08" drill="2.2"/>
+<pad name="4" x="5.08" y="5.08" drill="2.2"/>
+<text x="-6.35" y="8.89" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-6.35" y="7.62" size="0.4064" layer="27" rot="SR0">&gt;VALUE</text>
+<hole x="0" y="0" drill="1.7"/>
+>>>>>>> origin/master
 </package>
 </packages>
 <symbols>
@@ -2927,9 +2962,8 @@ CR2032 battery holder</description>
 <text x="-10.16" y="15.24" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.16" y="12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LMP7701MF">
+<symbol name="LMP7701MF-SPECIAL-HIZ">
 <pin name="V+" x="-17.78" y="2.54" length="middle" direction="pwr"/>
-<pin name="IN+" x="-17.78" y="-2.54" length="middle" direction="in"/>
 <pin name="IN-" x="-17.78" y="-5.08" length="middle" direction="in"/>
 <pin name="V-" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
 <pin name="OUT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
@@ -3005,6 +3039,7 @@ CR2032 battery holder</description>
 <text x="-1.27" y="-3.048" size="1.27" layer="94">NO</text>
 <text x="2.54" y="1.016" size="1.27" layer="94">COM</text>
 </symbol>
+<<<<<<< HEAD
 <symbol name="COIL">
 <description>Generic coil/inductor</description>
 <wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
@@ -3043,6 +3078,15 @@ CR2032 battery holder</description>
 <wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
 <text x="-5.08" y="2.794" size="1.778" layer="95">&gt;Name</text>
+=======
+<symbol name="BNC-SPECIAL-NO-CENTRE">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.5679" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1.778" layer="94" rot="MR180">GND</text>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+>>>>>>> origin/master
 </symbol>
 </symbols>
 <devicesets>
@@ -4241,15 +4285,14 @@ EMI/RFI finger - right angle and top</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LMP7701MF" prefix="U">
+<deviceset name="LMP7701MF-SPECIAL-HIZ" prefix="U">
 <description>Wide Supply Range Amplifiers</description>
 <gates>
-<gate name="A" symbol="LMP7701MF" x="0" y="0"/>
+<gate name="A" symbol="LMP7701MF-SPECIAL-HIZ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT95P285X120-5N">
+<device name="" package="SOT95P285X120-5N-SPECIAL-HIZ">
 <connects>
-<connect gate="A" pin="IN+" pad="3"/>
 <connect gate="A" pin="IN-" pad="4"/>
 <connect gate="A" pin="OUT" pad="1"/>
 <connect gate="A" pin="V+" pad="5"/>
@@ -4390,6 +4433,7 @@ Dual 12 mm coin cell battery holder&lt;br&gt;
 </device>
 </devices>
 </deviceset>
+<<<<<<< HEAD
 <deviceset name="COTO-9002" prefix="REL">
 <description>&lt;b&gt;Coto Technology 9002-xx-10&lt;/b&gt;&lt;br&gt;
 SPST reed relay with magnetic shield</description>
@@ -4428,6 +4472,17 @@ SIP reed relay</description>
 <connect gate="-C" pin="2" pad="2"/>
 <connect gate="-S" pin="P$1" pad="3"/>
 <connect gate="-S" pin="P$2" pad="4"/>
+=======
+<deviceset name="BNC-SPECIAL-NO-CENTRE">
+<description>BNC Connector, Mouser Part# 5227161</description>
+<gates>
+<gate name="G$1" symbol="BNC-SPECIAL-NO-CENTRE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="BNC-SPECIAL-NO-CENTRE">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+>>>>>>> origin/master
 </connects>
 <technologies>
 <technology name=""/>
